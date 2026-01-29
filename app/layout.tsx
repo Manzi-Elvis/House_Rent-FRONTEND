@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "BizRent Manager",
   description: "Professional property management platform for landlords and tenants",
-    generator: 'v0.app'
+    generator: 'MRE'
 }
 
 export default function RootLayout({
