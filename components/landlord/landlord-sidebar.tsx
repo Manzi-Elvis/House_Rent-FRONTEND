@@ -88,7 +88,7 @@ export function LandlordSidebar() {
 
       {/* Desktop Sidebar */}
       <div className="hidden md:flex md:w-64 md:flex-col">
-        <div className="flex flex-col flex-grow pt-5 bg-card border-r overflow-y-auto">
+        <div className="flex flex-col grow pt-5 bg-card border-r overflow-y-auto">
           <div className="flex items-center flex-shrink-0 px-4">
             <Building2 className="h-8 w-8 text-emerald-600" />
             <span className="ml-2 text-xl font-bold">BizRent</span>
