@@ -122,7 +122,7 @@ export function LandlordSidebar() {
             </nav>
           </div>
 
-          <div className="flex-shrink-0 p-4 border-t">
+          <div className="shrink-0 p-4 border-t">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="w-full justify-start p-2">
