@@ -79,7 +79,7 @@ export function TenantSidebar() {
             <span className="ml-2 text-xl font-bold">BizRent</span>
           </div>
 
-          <div className="mt-8 flex-grow flex flex-col">
+          <div className="mt-8 grow flex flex-col">
             <nav className="flex-1 px-2 space-y-1">
               {navigation.map((item) => {
                 const isActive = pathname === item.href
