@@ -111,7 +111,7 @@ export function LandlordSidebar() {
                   >
                     <item.icon
                       className={cn(
-                        "mr-3 flex-shrink-0 h-5 w-5",
+                        "mr-3 shrink-0 h-5 w-5",
                         isActive ? "text-emerald-600" : "text-muted-foreground",
                       )}
                     />
