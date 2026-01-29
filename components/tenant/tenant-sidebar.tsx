@@ -95,7 +95,7 @@ export function TenantSidebar() {
                     )}
                   >
                     <item.icon
-                      className={cn("mr-3 flex-shrink-0 h-5 w-5", isActive ? "text-blue-600" : "text-muted-foreground")}
+                      className={cn("mr-3 shrink-0 h-5 w-5", isActive ? "text-blue-600" : "text-muted-foreground")}
                     />
                     {item.name}
                   </Link>
